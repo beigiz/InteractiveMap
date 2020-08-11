@@ -635,9 +635,9 @@ export default {
 
 @media screen and (min-width: 1377px)
   .info-card
-    left: 200px
+    left: 350px
   .moveRight
-    transform: scale(0.75) translateX(200px)
+    transform: scale(0.85) translateX(200px)
     transition: 0.8s
 
 @media screen and (max-width: 1377px)
@@ -730,6 +730,8 @@ export default {
   display: flex
   justify-content: center
   align-items: center
+  
+
   div
 
     .icon-scroll,
