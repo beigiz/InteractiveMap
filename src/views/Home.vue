@@ -635,16 +635,16 @@ export default {
 
 @media screen and (min-width: 1377px)
   .info-card
-    left: 350px
+    left: 280px
   .moveRight
-    transform: scale(0.85) translateX(200px)
+    transform: scale(0.85) translateX(250px)
     transition: 0.8s
 
 @media screen and (max-width: 1377px)
   .moveRight
     transform: scale(0.75) translateX(300px)
   .info-card
-    left: 100px
+    left: 150px
 
 .info-card
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)!important
@@ -678,10 +678,7 @@ export default {
   display: block
   opacity: 1
 
-.moveRight
-  // left: 300px
-  transform: scale(0.75) translateX(200px)
-  transition: 0.8s
+
     // animation-name: mymove
     // animation-duration: 0.5s
 
